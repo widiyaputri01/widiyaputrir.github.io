@@ -1,0 +1,62 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #6dbb53;
+}
+.card {
+  background-color: #2f5521;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  width: 300px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.card h2 {
+  transition: color 0.3s;
+}
+.card h2:hover {
+  transform: scale(1.1);
+  color: blue;
+}
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+}
+.profile-img img {
+  width: 110px;
+  height: 110px;
+  border-radius: 100%;
+}
+
+.biodata-content {
+  margin-top: 15px;
+  text-align: left;
+}
+
+.biodata-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  color: white;
+  padding: 5px 0;
+  border-bottom: 1px dashed #ccc;
+}
+
+.biodata-row strong {
+  flex: 1;
+  text-align: left;
+}
+
+.biodata-row span {
+  flex: 2;
+  text-align: left;
+}
